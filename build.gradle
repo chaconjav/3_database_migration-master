@@ -105,8 +105,8 @@ flyway {
     password = 'sa'
 }
 
-//task migrateStaging(type: org.flywaydb.gradle.task.FlywayMigrateTask) {
-//    url = 'jdbc:mysql://192.168.50.6:3306/user_mgt'
-//    user = 'springuser'
-//    password = 'xXuVBAnXsRm3R2eT'
-//}
+task migrateStaging(type: org.flywaydb.gradle.task.FlywayMigrateTask) {
+    url = 'jdbc:mysql://192.168.50.6:3306/user_mgt'
+    user = 'springuser'
+    password = 'xXuVBAnXsRm3R2eT'
+}
